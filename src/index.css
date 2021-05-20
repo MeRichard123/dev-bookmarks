@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .select{
+        @apply block appearance-none w-full border px-4 py-3 pr-8 rounded;
+        @apply bg-white shadow leading-tight;
+    }
+    .main{
+        @apply bg-bg h-screen text-white p-2 grid overflow-hidden
+    }
+}
