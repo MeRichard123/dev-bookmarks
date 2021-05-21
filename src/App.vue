@@ -1,7 +1,7 @@
 <template>
-  <div class="main lg:grid-cols-2 lg:grid-rows-1 sm:grid-cols-1 sm:grid-rows-2">
+  <div :class="`${maincls} ${overflowcls}`">
     <section class="flex flex-col items-center h-full">
-      <h1 class="text-3xl font-bold font-poppins mt-36 mb-5 w-2/4">
+      <h1 class="text-3xl font-bold font-poppins lg:mt-36 lg:mb-5 mt-14 w-2/4">
         Web Dev <span class="text-accent">Resources</span> for Everyone:
       </h1>
       <div class="w-2/4">
@@ -30,7 +30,7 @@
       </span>
     </section>
     <section>
-      <div class="m-5 bg-light rounded p-10 h-full overflow-y-scroll">
+      <div class="m-5 bg-light rounded p-10 h-full lg:overflow-y-scroll">
         <p v-text="text" v-if="!selectChoice" class="p-5"></p>
         <ol v-else-if="filteredLinks.length > 0" class="p-5 list-decimal">
           <li v-for="link,index in filteredLinks" :key="index">
@@ -50,6 +50,8 @@ export default {
   name: 'App',
   data() {
     return {
+      overflowcls: 'lg:overflow-hidden h-screen',
+      maincls: 'main lg:grid-cols-2 lg:grid-rows-1 sm:grid-cols-1 sm:grid-rows-2',
       text: 'Select a Category from the Dropdown',
       selectChoice: '',
       links,

@@ -8,6 +8,10 @@
         @apply bg-white shadow leading-tight;
     }
     .main{
-        @apply bg-bg h-screen text-white p-2 grid overflow-hidden
+        @apply bg-bg text-white pt-5 px-2 grid
     }
+}
+
+html{
+    background:#20252D;
 }
