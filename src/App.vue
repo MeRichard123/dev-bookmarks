@@ -10,13 +10,8 @@
           <select class="select border-gray-400 mt-5 text-gray"
             name="Category" title="Category" v-model="selectChoice">
             <option disabled value selected>Select a Category</option>
-            <option value="Design">Design</option>
-            <option value="Styles">Styles</option>
-            <option value="Tools">Tools</option>
-            <option value="Hosting">Hosting</option>
-            <option value="CodeChallenges">CodeChallenges</option>
-            <option value="Ports">Ports</option>
-            <option value="Other">Other</option>
+            <option v-for="category,index in Sections"
+            :key="index" v-text="category" :value="category"></option>
           </select>
            <div class="pointer-events-none absolute right-0 top-8 flex items-center px-2 text-gray">
              <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
@@ -70,6 +65,9 @@ export default {
         });
       }
       return KeyValueArrays;
+    },
+    Sections() {
+      return Array.from(Object.keys(this.links));
     },
   },
 };

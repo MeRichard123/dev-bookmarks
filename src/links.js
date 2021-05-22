@@ -65,18 +65,6 @@ const links = {
     'Resilient Web Design': 'https://resilientwebdesign.com/',
     DjangoGirls: 'https://tutorial.djangogirls.org/en/',
   },
-  Other: {
-    GitExplorer: 'https://gitexplorer.com/',
-    OhSitGit: 'https://ohshitgit.com/',
-    GitMoji: 'https://gitmoji.dev/',
-    'Javascipt AirBnB Styleguide': 'https://airbnb.io/javascript/',
-    DjangoPackages: 'https://djangopackages.org/',
-    DisStreamChat: 'https://www.disstreamchat.com/#/',
-    PythonVisualise: 'http://pythontutor.com/visualize.html#mode=display',
-    'Instram # Generator': 'https://metahashtags.com/#',
-    AnswerThePublic: 'https://answerthepublic.com/reports/1281666d-a597-4899-973e-4c7dc90bbb54',
-    'Data Structures and Algos': 'https://www.tutorialspoint.com/data_structures_algorithms/stack_algorithm.htm',
-  },
   CodeChallenges: {
     HackerRank: 'https://www.hackerrank.com/dashboard',
     CodeWars: 'https://www.codewars.com/dashboard',
@@ -89,6 +77,18 @@ const links = {
     'localhost://3000': 'http://localhost:3000/',
     'localhost://8080': 'http://localhost:8080/',
     'localhost://5050': 'http://localhost:5050/',
+  },
+  Other: {
+    GitExplorer: 'https://gitexplorer.com/',
+    OhSitGit: 'https://ohshitgit.com/',
+    GitMoji: 'https://gitmoji.dev/',
+    'Javascipt AirBnB Styleguide': 'https://airbnb.io/javascript/',
+    DjangoPackages: 'https://djangopackages.org/',
+    DisStreamChat: 'https://www.disstreamchat.com/#/',
+    PythonVisualise: 'http://pythontutor.com/visualize.html#mode=display',
+    'Instram # Generator': 'https://metahashtags.com/#',
+    AnswerThePublic: 'https://answerthepublic.com/reports/1281666d-a597-4899-973e-4c7dc90bbb54',
+    'Data Structures and Algos': 'https://www.tutorialspoint.com/data_structures_algorithms/stack_algorithm.htm',
   },
 };
 
