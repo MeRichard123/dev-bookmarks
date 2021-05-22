@@ -44,7 +44,7 @@ const links = {
     JSONtoTS: 'http://www.json2ts.com/',
     Wagtail: 'https://www.educative.io/explore',
     Caniuse: 'https://caniuse.com/',
-    'Github To CDN Converter': 'https://statically.io/convert/',
+    'Github To CND Converter': 'https://statically.io/convert/',
     Gitlab: 'https://gitlab.com/',
     Supabase: 'https://app.supabase.io/',
     FormSpree: 'https://formspree.io',
@@ -69,7 +69,7 @@ const links = {
     HackerRank: 'https://www.hackerrank.com/dashboard',
     CodeWars: 'https://www.codewars.com/dashboard',
     LeetCode: 'https://leetcode.com/problemset/all/',
-    DevChallengesio: 'https://devchallenges.io/',
+    DevChallsio: 'https://devchallenges.io/',
     FrontendMentor: 'https://www.frontendmentor.io/',
   },
   Ports: {
@@ -80,7 +80,7 @@ const links = {
   },
   Other: {
     GitExplorer: 'https://gitexplorer.com/',
-    OhShitGit: 'https://ohshitgit.com/',
+    OhSitGit: 'https://ohshitgit.com/',
     GitMoji: 'https://gitmoji.dev/',
     'Javascipt AirBnB Styleguide': 'https://airbnb.io/javascript/',
     DjangoPackages: 'https://djangopackages.org/',
