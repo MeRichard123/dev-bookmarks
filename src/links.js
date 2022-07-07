@@ -1,6 +1,7 @@
 const links = {
   Design: {
     FlatUI: 'https://flatuicolors.com/',
+    '0to255': 'https://0to255.com/',
     IconMonstr: 'https://iconmonstr.com/',
     TablerIcons: 'https://tablericons.com/',
     CodingInventory: 'https://coding.garden/videos/#/?filter=inventory',
@@ -50,7 +51,11 @@ const links = {
     FormSpree: 'https://formspree.io',
     'Favicon Generator': 'https://www.favicon-generator.org/',
     'Favicon.io': 'https://favicon.io/',
-
+  },
+  SupportOthers: {
+    WomenWhoStream: 'https://womenwhostream.tech/',
+    UnbreakTech: 'https://unbreak.tech/',
+    WomenWhoDesign: 'https://womenwho.design/',
   },
   Hosting: {
     Netlify: 'https://app.netlify.com',
@@ -78,6 +83,11 @@ const links = {
     'localhost://8080': 'http://localhost:8080/',
     'localhost://5050': 'http://localhost:5050/',
   },
+  Haskell: {
+    'Serokell Blog': 'https://serokell.io/blog/haskell',
+    'Gutier Blog': 'https://gutier.io',
+    'API Reference': 'https://hoogle.haskell.org',
+  },
   Other: {
     GitExplorer: 'https://gitexplorer.com/',
     OhShitGit: 'https://ohshitgit.com/',
@@ -89,6 +99,9 @@ const links = {
     'Instagram # Generator': 'https://metahashtags.com/#',
     AnswerThePublic: 'https://answerthepublic.com/reports/1281666d-a597-4899-973e-4c7dc90bbb54',
     'Data Structures and Algos': 'https://www.tutorialspoint.com/data_structures_algorithms/stack_algorithm.htm',
+    SpeedTyper: 'https://www.speedtyper.dev/',
+    CountryGuesser: 'https://online.seterra.com/en/l/eur',
+    BattleSnake: 'https://play.battlesnake.com/',
   },
 };
 
