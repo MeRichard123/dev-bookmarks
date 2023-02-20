@@ -56,7 +56,7 @@ const links = {
     WomenWhoStream: 'https://womenwhostream.tech/',
     UnbreakTech: 'https://unbreak.tech/',
     WomenWhoDesign: 'https://womenwho.design/',
-    GoogleEngineeringReviews: 'https://google.github.io/eng-practices/',
+    'Google Engineering Reviews': 'https://google.github.io/eng-practices/',
   },
   Hosting: {
     Netlify: 'https://app.netlify.com',
